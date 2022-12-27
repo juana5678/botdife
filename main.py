@@ -142,7 +142,7 @@ bot = Client("bot", bot_token= '5965546694:AAE-VfOcsFkuCe_CA7A3rpmYh2OQFleDYDk'
 
 
 @bot.on_message()
-async def message_handler(client: Client, message: Message):
+
     uid: str = message.from_user.username
     msg: str = message.text
     if not msg:
