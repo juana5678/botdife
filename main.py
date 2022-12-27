@@ -143,10 +143,7 @@ bot = Client("bot", bot_token= '5965546694:AAE-VfOcsFkuCe_CA7A3rpmYh2OQFleDYDk'
 
 @bot.on_message()
 
-    uid: str = message.from_user.username
-    msg: str = message.text
-    if not msg:
-        msg = ""
+   
     if msg.lower() == "/start":
         await message.reply("Bienvenido -> {}\nUser -> @{}".format(message.from_user.first_name,uid))
         return
