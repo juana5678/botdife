@@ -13,7 +13,7 @@ import urllib.parse
 import json
 from bs4 import BeautifulSoup
 
-from conf import *
+from conf import 
 
 
 async def get_token(base_url: URL, user: str, passw: str, proxy: str = ""):
