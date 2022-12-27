@@ -138,7 +138,7 @@ async def send_calendar(moodle: str, user: str, passw: str, urls: list, proxy: s
 #     },
 # }
 url_list = {}
-bot = Client("bot", bot_token= 
+bot = Client("bot", bot_token= '5965546694:AAE-VfOcsFkuCe_CA7A3rpmYh2OQFleDYDk'
 
 
 @bot.on_message()
